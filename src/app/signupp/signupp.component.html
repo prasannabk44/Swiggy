@@ -1,0 +1,48 @@
+<div class="container">
+  <form #form="ngForm" (ngSubmit)="signup(form)">
+    <h1 class="login">
+      Signup<img class="img" src="../../assets/images/login.png" />
+    </h1>
+    <p>
+      or
+      <span><a class="content" href="login">login to your account</a></span>
+    </p>
+    <div class="form-group">
+      <input
+        ngModel
+        name="phonenumber"
+        type="text"
+        class="form-control col-md-4"
+        placeholder="Phonenumber"
+      />
+      <input
+        type="text"
+        ngModel
+        name="name"
+        class="form-control col-md-4"
+        placeholder="Name"
+      />
+      <input
+        type="email"
+        ngModel
+        name="email"
+        class="form-control col-md-4"
+        placeholder="Email"
+      />
+      <input
+        ngModel
+        name="password"
+        type="password"
+        class="form-control col-md-4"
+        placeholder="Password"
+      />
+
+      <span><a class="rcode" href="rcode">Have a refferel code?</a></span>
+    </div>
+    <div class="form-group">
+      <button class=" form-control col-md-4">
+        Continue
+      </button>
+    </div>
+  </form>
+</div>

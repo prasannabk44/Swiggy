@@ -1,0 +1,18 @@
+.img {
+  height: 100px;
+  padding-left: 20%;
+}
+.content {
+  color: #fc8019;
+  font-weight: bolder;
+}
+#button {
+  padding: 30px;
+  font-weight: bolder;
+  color: white;
+  background-color: #fc8019;
+  line-height: 5px;
+}
+.col-md-4 {
+  padding: 30px;
+}

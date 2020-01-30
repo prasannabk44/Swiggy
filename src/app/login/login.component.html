@@ -1,0 +1,32 @@
+<div class="container">
+  <form #form="ngForm" (ngSubmit)="login(form)">
+    <h1 class="login">
+      Login<img class="img" src="../../assets/images/login.png" />
+    </h1>
+    <p>
+      or
+      <span><a class="content" href="signupp">create an account</a></span>
+    </p>
+    <div class="form-group">
+      <input
+        ngModel
+        name="email"
+        type="email"
+        class="form-control col-md-4"
+        placeholder="Email"
+      />
+      <input
+        ngModel
+        name="password"
+        type="password"
+        class="form-control col-md-4"
+        placeholder="password"
+      />
+    </div>
+    <div class="form-group">
+      <button class="form-control col-md-4" id="button">
+        Login
+      </button>
+    </div>
+  </form>
+</div>

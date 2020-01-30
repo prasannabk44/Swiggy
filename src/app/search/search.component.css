@@ -1,0 +1,41 @@
+.Search {
+  padding: 15px;
+  width: 70%;
+  padding-left: 2%;
+  margin: 10%;
+  font-weight: bolder;
+  color: lightslategrey;
+}
+.search {
+  padding: 17px;
+  background: #fc8019;
+  font-weight: bolder;
+  color: white;
+  float: right;
+  padding-left: 4%;
+  margin: 0%;
+  margin-top: -19%;
+  padding-right: 15%;
+}
+.citie {
+  text-decoration: none;
+  line-height: 80%;
+  font-size: 12px;
+  font-weight: 600;
+  text-indent: 5em;
+  padding-right: 0px;
+}
+.popular {
+  margin-top: 15px;
+  color: lightslategrey;
+  padding-left: 10%;
+}
+h3 {
+  color: lightslategrey;
+  padding-left: 10%;
+  margin-top: 2%;
+}
+h1 {
+  padding-left: 10%;
+  margin-top: -27%;
+}

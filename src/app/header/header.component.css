@@ -1,0 +1,23 @@
+._1envo {
+  fill: #fc8019;
+  padding-left: 10%;
+  margin-bottom: 27%;
+  margin-left: 18%;
+}
+
+.nav-link {
+  font-weight: bold;
+  color: black;
+  padding-left: 10%;
+}
+.nav:hover {
+  font: #fc8019;
+  text-decoration: none;
+}
+.navbar-nav {
+  margin-bottom: 49%;
+  margin-left: 59%;
+}
+/* .nav {
+  padding-left: 2%;
+} */

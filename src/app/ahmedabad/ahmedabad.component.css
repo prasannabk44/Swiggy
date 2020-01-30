@@ -1,0 +1,29 @@
+._1envo {
+  fill: #fc8019;
+  padding-left: 10%;
+  margin-bottom: 124%;
+  margin-left: 18%;
+}
+
+a:hover {
+  font-weight: bold;
+  color: #fc8019;
+}
+#navbarNav {
+  /* margin-left: 524%; */
+  padding-left: 63%;
+  margin-bottom: 31%;
+  font-size: 14px;
+}
+.div {
+  background: #494d60;
+  margin-top: -39%;
+  color: aliceblue;
+}
+.h2 {
+  margin-top: 10%;
+  padding-top: 6%;
+}
+.btn {
+  background: #fc8019;
+}
